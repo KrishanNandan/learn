@@ -1,6 +1,5 @@
 git init -> intializes .git hidden folder where all the history will reside
 git status -> to see if there is any change made in that folder
-untracked file-> stagging area (post add)->will move to local repo(post git commit)
 git add --all -> will add all the untracked file present in that directory, if want to only add specific file then in place of --all put filename with extension
 git commit -m "message" -> for commiting the changes and -m here for adding the message
 git restore --staged <file>..." -> for unstagging the changes
@@ -12,6 +11,18 @@ git stash clear-> to clean all the things in the stash (git status will give mes
 git remote add origin https://github.com/KrishanNandan/learn.git--> will kind of link the github repo to local and its like store the link in origin 
 git push origin(where) master(from which branch) 
 git remote set-url origin/anyName "url" ==> to reset url of origin branch
-branch-> main/master is the default branch and we should not commit directly to this since people are usin it
 git branch feat-> will create new branch feat
-git checkout feat-> will point head to feat, earlier it was pointing to main so now what ever changes we make will be part of feat       
+git checkout feat-> will point head to feat, earlier it was pointing to main so now what ever changes we make will be part of feat  
+git merge feat-> Now if your head is at master you want to merge the changes of feat branch to master then you will use this command    
+
+
+
+
+
+
+
+
+
+
+branch-> main/master is the default branch and we should not commit directly to this since people are using it  
+untracked file-> stagging area (post add)->will move to local repo(post git commit)->Will move to remote repo(post push is done to repo)
