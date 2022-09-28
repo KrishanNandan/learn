@@ -1,0 +1,33 @@
+Step-1 Fork the project you want
+
+step-2 Clone the project to your personel directory using https,SSH or Github CLI
+                      a.) Move to directory you want to copy "$ cd  Practice_Project/Git-hub"
+                      b.)  git clone https://github.com/KrishanNandan/react_redux_thunk.git(https path)
+                      c.) cd react_redux_thunk (clone folder)
+                      d.) git remote -v (to see the origin from where you have copied things and where you have to push changes) it will give 
+                             origin  https://github.com/KrishanNandan/react_redux_thunk.git (fetch)
+                             origin  https://github.com/KrishanNandan/react_redux_thunk.git (push)
+
+step-3 add upstream using git remote add upstream https://github.com/gitdagray/react_redux_toolkit.git(path from where things have been forked) and use git remote -v
+                          for checking wheather upstream got added or not  and if added it will give as 
+                    origin  https://github.com/KrishanNandan/react_redux_thunk.git (fetch)
+                    origin  https://github.com/KrishanNandan/react_redux_thunk.git (push)
+                    upstream        https://github.com/gitdagray/react_redux_toolkit.git (fetch)
+                    upstream        https://github.com/gitdagray/react_redux_toolkit.git (push)
+     so here we can see things we have have got under alias origin and updated stuffs are stored in as alias upstream
+
+step-4 fetching the data  a.) git fetch upstream --all --prune: will fetch the changes from where you have forked the project
+                          b.) git pull upstream main : what it is doing is pulling things from upstream url main branch
+
+step-5 git merge upstream/main main (here main is where our code is and upstream/main is place where updated one is) or simply use git merge upstream/main since
+                         you are already at main (so changes from your friends will be merged to you main branch)
+
+step-6 git push to push the changes to github(now main branch have everything and you are at main branch so when you will do git push all the stuff will be pushed from 
+                      main to origin on remote)
+
+
+
+
+
+  
+
