@@ -9,4 +9,6 @@ git reset <hash name> -> it will remove all the changes made post this hash
 git stash-> store the things in stagging area
 git stash pop-> for making the stashed file come to stagging area      
 git stash clear-> to clean all the things in the stash (git status will give message nothing to commit,working tree clean )
-      
+git remote add origin https://github.com/KrishanNandan/learn.git--> will kind of link the github repo to local and its like store the link in origin 
+git push origin(where) master(from which branch) 
+git remote set-url origin/anyName "url" ==> to reset url of origin branch       
