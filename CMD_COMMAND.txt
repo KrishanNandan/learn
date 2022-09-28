@@ -6,3 +6,4 @@ rmdir / rd	delete directory
 mkdir	create a new directory
 move	move/rename files
 dir /a:h  to see hidden file in that directory
+del <filename>  to delete file
