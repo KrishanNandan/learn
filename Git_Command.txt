@@ -1,0 +1,5 @@
+git init -> intializes .git hidden folder where all the history will reside
+git status -> to see if there is any change made in that folder
+untracked file-> stagging area (post add)
+git add --all -> will add all the untracked file present in that directory, if want to only add specific file then in place of --all put filename with extension
+                  
