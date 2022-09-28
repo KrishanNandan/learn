@@ -7,4 +7,6 @@ git restore --staged <file>..." -> for unstagging the changes
 git log -> will give details of files which have been commited
 git reset <hash name> -> it will remove all the changes made post this hash        
 git stash-> store the things in stagging area
-git stash pop-> for making the stashed file come to stagging area            
+git stash pop-> for making the stashed file come to stagging area      
+git stash clear-> to clean all the things in the stash (git status will give message nothing to commit,working tree clean )
+      
