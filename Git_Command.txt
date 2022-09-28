@@ -14,7 +14,7 @@ git remote set-url origin/anyName "url" ==> to reset url of origin branch
 git branch feat-> will create new branch feat
 git checkout feat-> will point head to feat, earlier it was pointing to main so now what ever changes we make will be part of feat  
 git merge feat-> Now if your head is at master you want to merge the changes of feat branch to master then you will use this command    
-
+q or z or ctrl+z -> to get rid of git log scrollable
 
 
 
