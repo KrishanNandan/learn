@@ -1,0 +1,2 @@
+git pull origin master-> it will pull all the changes from remote to the branch you are working on
+git push --set-upstream origin test-> will push all the changes from current branch u r working to test branch on remote
